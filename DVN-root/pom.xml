@@ -15,7 +15,7 @@
         <repository>
             <id>dvn.private</id>
             <name>Local, DVN Remote Repository hosting the private jars</name>
-            <url>file:///${project.basedir}/local_lib</url>
+            <url>file://${project.basedir}/local_lib</url>
         </repository>
 
         <repository>

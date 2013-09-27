@@ -156,12 +156,12 @@
             <version>1.2.12</version>
         </dependency>
         <dependency>
-            <groupId>ORG.oclc</groupId>
+            <groupId>org.oclc</groupId>
             <artifactId>harvester2</artifactId>
             <version>2007-05-31-generated</version>
         </dependency>
         <dependency>
-            <groupId>ORG.oclc</groupId>
+            <groupId>org.oclc</groupId>
             <artifactId>oaicat</artifactId>
             <version>2007-10-16-generated</version>
         </dependency>

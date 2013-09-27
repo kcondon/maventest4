@@ -1,5 +1,29 @@
 
 
+Note: The detailed steps used to  Mavenize DVN, below are provided as
+
+reference.
+
+This repository contains the source tree that has already been modified
+
+and configured for Maven.
+
+So in order to make a maven build, simply clone the repo and build in
+
+NetBeans or from
+
+the command line. For example:
+
+
+
+git clone https://github.com/kcondon/maventest4
+
+cd maventest4/DVN-root
+
+mvn package
+
+
+
 Steps to Mavenize DVN
 
 
@@ -26,11 +50,6 @@ the modules so that only a DVN-root parent project and DVN-web module are left.
 The goal was to have only a single DVN-web project but we found an issue with
 installing private libraries to the local repository so instead rely on the
 parent project DVN-root to do that.
-
-
-
-To make use of this project, simply clone the repo and build in NetBeans or from
-the command line. The steps to  Mavenize DVN are provided as reference.
 
 
 
